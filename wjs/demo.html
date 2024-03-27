@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <input type="button" value="alert" onclick="alertfnc();" />
+    <input type="button" value="confirm" onclick="confirmfnc();" />
+    <input type="button" value="prompt" onclick="func_prompt();" />
+    <script>
+      function alertfnc() {
+        alert(1);
+        alert(2);
+        alert(3);
+      }
+      function confirmfnc() {
+        if (confirm("ok")) {
+          alert("yes");
+        } else {
+          alert("noo");
+        }
+      }
+      function func_prompt() {
+        if (prompt("id?") === "surim") {
+          alert("yes");
+        } else {
+          alert("noo");
+        }
+      }
+      document.write("hello world");
+      password = prompt("비밀번호");
+      if (password == 1111) {
+        document.write("안녕하세요. 주인님");
+      } else {
+        document.write("누구세요?");
+      }
+      //location.href=url(url로 이동)
+      //location.reroad F5
+      // location.protocol/host/port/pathname/search/hash
+      // console.dir(nevigator.appName/appVersion/user);
+    </script>
+  </body>
+</html>
