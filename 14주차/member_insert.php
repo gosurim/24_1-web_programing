@@ -15,5 +15,5 @@
     mysqli_query($con, $sql);
     mysqli_close($con);
 
-    echo "<script>location.href='index.php';</script>"
+    echo "<script>location.href='index.php';</script>";
 ?>
